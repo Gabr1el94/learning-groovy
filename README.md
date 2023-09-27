@@ -1,5 +1,7 @@
 # Learning-groovy
 
+![alt text](https://blog.knoldus.com/wp-content/uploads/2018/01/1200px-Groovy-logo.svg_-1024x507.png "Groovy")
+
 ## Introdução
 
 Groovy é uma linguagem de programação dinâmica que foi desenvolvida para ser executada na máquina virtual do Java (JVM). Ela combina características das linguagens Java, Python e Ruby, tornando-a uma opção poderosa e flexível para o desenvolvimento de aplicativos.
