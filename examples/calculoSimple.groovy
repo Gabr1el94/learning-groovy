@@ -13,8 +13,12 @@ def calculo(a,b,operador) {
         case '/':
            return a / b 
         break
+        case '**':
+           return a  b 
+        break
         default:
             println('Operador inválido!')
+            System.exit(0)
         break
     } 
 }
@@ -26,9 +30,11 @@ def resultadoSoma = calculo(valor1, valor2, '+')
 def resultadoSubtracao = calculo(valor1, valor2, '-') 
 def resultadoMultiplicacao = calculo(valor1, valor2, '*') 
 def resultadoDivisao = calculo(valor1, valor2, '/')
-def resultadoError = calculo(valor1, valor2, '**')
+def resultadoPot = calculo(valor1, valor2, '**')
+def resultadoError = calculo(valor1, valor2, '***')
 
 println "Resultado da soma: ${resultadoSoma}"
 println "Resultado da subtração: ${resultadoSubtracao}"
 println "Resultado da multiplicação: ${resultadoMultiplicacao}"
 println "Resultado da divisão: ${resultadoDivisao}"
+println "Resultado da potência ${valor1} a ${valor2}: ${resultadoPot}"
