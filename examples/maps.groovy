@@ -30,3 +30,6 @@ employee.each { key,value ->
 employee.eachWithIndex{ key,value,i ->
     println "$i | $key: $value"
 }
+
+employee.clear()
+println employee.size()
